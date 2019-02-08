@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- ========== Meta Tags ========== -->
     <meta charset="UTF-8">
@@ -26,287 +27,302 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
 </head>
-<body>
-<div class="loader">
-    <div class="loader-outter"></div>
-    <div class="loader-inner"></div>
-</div>
 
-<!--header start here -->
-<header class="header navbar fixed-top navbar-expand-md">
-    <div class="container">
-        <a class="navbar-brand logo" href="#">
-            <img src="" alt="letshack"/>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="lnr lnr-text-align-right"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
-            <ul class=" nav navbar-nav menu">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">Speakers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">Events</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">News</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">Contact</a>
-                </li>
-                <li class="search_btn">
-                    <a  href="#">
-                       <i class="ion-ios-search"></i>
-                    </a>
-                </li>
+<body>
+    <div class="loader">
+        <div class="loader-outter"></div>
+        <div class="loader-inner"></div>
+    </div>
+
+    <!--header start here -->
+    <header class="header navbar fixed-top navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">
+                <img src="" alt="letshack" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="lnr lnr-text-align-right"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
+                <ul class=" nav navbar-nav menu">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Contact</a>
+                    </li>
+                    <li class="search_btn">
+                        <a href="#">
+                            <i class="ion-ios-search"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--header end here-->
+
+    <!--cover section slider -->
+    <section id="home" class="home-cover">
+        <div class="cover_slider owl-carousel owl-theme">
+            <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
+                <div class="slider_content">
+                    <div class="slider-content-inner">
+                        <div class="container">
+                            <div class="slider-content-center">
+                                <h2 class="cover-title">
+                                    Join us at the
+                                </h2>
+                                <strong class="cover-xl-text">Hackathon</strong>
+                                <p class="cover-date">
+                                    <!-- 05 - 07 September 2019  - Jalandhar, Punjab. -->
+                                </p>
+                                <a href="#" class=" btn btn-primary btn-rounded">
+                                    Apply Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cover_item" style="background: url('assets/img/bg/slider2.png');">
+                <div class="slider_content">
+                    <div class="slider-content-inner">
+                        <div class="container">
+                            <div class="slider-content-left">
+                                <h2 class="cover-title">
+                                    To learn grow and
+                                </h2>
+                                <strong class="cover-xl-text">Enjoy</strong>
+                                <p class="cover-date">
+                                    <!-- 05 - 07 September 2019  - Jalandhar, Punjab. -->
+                                </p>
+                                <a href="#" class=" btn btn-primary btn-rounded">
+                                    Apply Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cover_item" style="background: url('assets/img/bg/slider3.png');">
+                <div class="slider_content">
+                    <div class="slider-content-inner">
+                        <div class="container">
+                            <div class="slider-content-center">
+                                <h2 class="cover-title">
+                                    Eat <del>Sleep</del> Code
+                                </h2>
+                                <strong class="cover-xl-text">Repeat</strong>
+                                <p class="cover-date">
+                                    05 - 07 September 2019 - Jalandhar, Punjab.
+                                </p>
+                                <a href="#" class=" btn btn-primary btn-rounded">
+                                    Apply now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cover_nav">
+            <ul class="cover_dots">
+                <li class="active" data="0"><span>1</span></li>
+                <li data="1"><span>2</span></li>
+                <li data="2"><span>3</span></li>
             </ul>
         </div>
-    </div>
-</header>
-<!--header end here-->
+    </section>
+    <!--cover section slider end -->
 
-<!--cover section slider -->
-<section id="home" class="home-cover">
-    <div class="cover_slider owl-carousel owl-theme">
-        <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
-             <div class="slider_content">
-                <div class="slider-content-inner">
-                    <div class="container">
-                        <div class="slider-content-center">
-                            <h2 class="cover-title">
-                                Join us at the
-                            </h2>
-                            <strong class="cover-xl-text">Hackathon</strong>
-                            <p class="cover-date">
-                                <!-- 05 - 07 September 2019  - Jalandhar, Punjab. -->
+    <!--event info -->
+    <section class="pt100 pb100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-3  ">
+                    <div class="icon_box_two">
+                        <i class="ion-ios-calendar-outline"></i>
+                        <div class="content">
+                            <h5 class="box_title">
+                                DATE
+                            </h5>
+                            <p>
+                                05 - 07 September, 2019
                             </p>
-                            <a href="#" class=" btn btn-primary btn-rounded" >
-                                Apply Now
-                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3  ">
+                    <div class="icon_box_two">
+                        <i class="ion-ios-location-outline"></i>
+                        <div class="content">
+                            <h5 class="box_title">
+                                location
+                            </h5>
+                            <p>
+                                Jalandhar, Punjab
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3  ">
+                    <div class="icon_box_two">
+                        <i class="ion-ios-person-outline"></i>
+                        <div class="content">
+                            <h5 class="box_title">
+                                Winners
+                            </h5>
+                            <p>
+                                Over 5+ Team Prizes
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3  ">
+                    <div class="icon_box_two">
+                        <i class="ion-ios-pricetag-outline"></i>
+                        <div class="content">
+                            <h5 class="box_title">
+                                Cost
+                            </h5>
+                            <p>
+                                Free Food , Drinks and Swags
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="cover_item" style="background: url('assets/img/bg/slider2.png');">
-            <div class="slider_content">
-                <div class="slider-content-inner">
-                    <div class="container">
-                        <div class="slider-content-left">
-                            <h2 class="cover-title">
-                                To learn grow and
-                            </h2>
-                            <strong class="cover-xl-text">Enjoy</strong>
-                            <p class="cover-date">
-                                <!-- 05 - 07 September 2019  - Jalandhar, Punjab. -->
+    </section>
+    <!--event info end -->
+
+
+    <!--event countdown -->
+    <section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/bg-img.png');">
+        <div class="overlay_dark"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                    <h4 class="mb30 text-center color-light">Counter until the Hackathon</h4>
+                    <div class="countdown"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--event count down end-->
+
+
+    <!--about the event -->
+    <section class="pt100 pb100">
+        <div class="container">
+            <div class="section_title">
+                <h3 class="title">
+                    About the event
+                </h3>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <p>
+                        MSHacks series now named as Let's Hack is one of the biggest events that is conducted by MSTC
+                        LPU. The sole aim of this hackathon is to provide a competitive environment where students to
+                        make something innovative.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p>
+                        Hacking is building things that you always wanted to have but no one has built it yet. It's to
+                        come up with an amazing idea and work tirelessly on it. It is to fail, fail again and fail
+                        better. Try out new things and learn while doing that. It's to work together, collaborate and
+                        build things that are innovative. It is to be a better programmer.
+                        With that spirit, Microsoft Technical Community LPU is conducting a hackathon - Let's Hack 3.0
+                        and invites all developers and hackathon enthusiasts to participate in an interesting and
+                        engaging hackathon.
+                    </p>
+                </div>
+            </div>
+
+            <!--event features-->
+            <div class="row justify-content-center mt30">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="icon_box_one">
+                        <i class="lnr lnr-mic"></i>
+                        <div class="content">
+                            <h4>5+ Speakers & 10+ mentors</h4>
+                            <p>
+                                We are bringing very talented men and women from various parts of country to make this
+                                hackathon one of the happening not only in terms of arrangement but also on terms of
+                                the quality of content.
                             </p>
-                            <a href="#" class=" btn btn-primary btn-rounded" >
-                                Apply Now
-                            </a>
+                            <a href="#">Cool</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="icon_box_one">
+                        <i class="lnr lnr-rocket"></i>
+                        <div class="content">
+                            <h4>36 hrs Hackathon</h4>
+                            <p>
+                                For this 36 hours you will be working on various problem statements and issues. You
+                                will be trying to make your best solution and we will take care of your refreshments
+                                and enjoyment.
+                            </p>
+                            <a href="#">Cool</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="icon_box_one">
+                        <i class="lnr lnr-bullhorn"></i>
+                        <div class="content">
+                            <h4>Per round Elimination</h4>
+                            <p>
+                                Elimination will be based on per round basis. There will be nearly 3 rounds of
+                                evaluation on 12,24,36 hours from start respectively.
+                            </p>
+                            <a href="#">Cool</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="icon_box_one">
+                        <i class="lnr lnr-clock"></i>
+                        <div class="content">
+                            <h4>Filled with opportunities</h4>
+                            <p>
+                                Get a chance to meet leadership experts of now and get a chance to talk to them and
+                                take your career to next level.
+                            </p>
+                            <a href="#">Cool</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <!--event features end-->
         </div>
-        <div class="cover_item" style="background: url('assets/img/bg/slider3.png');">
-            <div class="slider_content">
-                <div class="slider-content-inner">
-                    <div class="container">
-                        <div class="slider-content-center">
-                            <h2 class="cover-title">
-                                Eat <del>Sleep</del> Code
-                            </h2>
-                            <strong class="cover-xl-text">Repeat</strong>
-                            <p class="cover-date">
-                                05 - 07 September 2019  - Jalandhar, Punjab.
-                            </p>
-                            <a href="#" class=" btn btn-primary btn-rounded" >
-                                Apply now
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="cover_nav">
-        <ul class="cover_dots">
-            <li class="active" data="0"><span>1</span></li>
-            <li  data="1"><span>2</span></li>
-            <li  data="2"><span>3</span></li>
-        </ul>
-    </div>
-</section>
-<!--cover section slider end -->
-
-<!--event info -->
-<section class="pt100 pb100">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-6 col-md-3  ">
-                <div class="icon_box_two">
-                    <i class="ion-ios-calendar-outline"></i>
-                    <div class="content">
-                        <h5 class="box_title">
-                            DATE
-                        </h5>
-                        <p>
-                            05 - 07 September, 2019
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3  ">
-                <div class="icon_box_two">
-                    <i class="ion-ios-location-outline"></i>
-                    <div class="content">
-                        <h5 class="box_title">
-                            location
-                        </h5>
-                        <p>
-                            Jalandhar, Punjab
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3  ">
-                <div class="icon_box_two">
-                    <i class="ion-ios-person-outline"></i>
-                    <div class="content">
-                        <h5 class="box_title">
-                            Winners
-                        </h5>
-                        <p>
-                           Over 5+ Team Prizes
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3  ">
-                <div class="icon_box_two">
-                    <i class="ion-ios-pricetag-outline"></i>
-                    <div class="content">
-                        <h5 class="box_title">
-                            Cost
-                        </h5>
-                        <p>
-                            Free Food , Drinks and Swags
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--event info end -->
+    </section>
+    <!--about the event end -->
 
 
-<!--event countdown -->
-<section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/bg-img.png');">
-    <div class="overlay_dark"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-10">
-                <h4 class="mb30 text-center color-light">Counter until the Hackathon</h4>
-                <div class="countdown"></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--event count down end-->
-
-
-<!--about the event -->
-<section class="pt100 pb100">
-    <div class="container">
-        <div class="section_title">
-            <h3 class="title">
-                About the event
-            </h3>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-6">
-                <p>
-                    MSHacks series now named as Let's Hack is one of the biggest events that is conducted by MSTC LPU. The sole aim of this hackathon is to provide a competitive environment where students to make something innovative.
-                </p>
-            </div>
-            <div class="col-12 col-md-6">
-                <p>
-                    Hacking is building things that you always wanted to have but no one has built it yet. It's to come up with an amazing idea and work tirelessly on it. It is to fail, fail again and fail better. Try out new things and learn while doing that. It's to work together, collaborate and build things that are innovative. It is to be a better programmer.
-With that spirit, Microsoft Technical Community LPU is conducting a hackathon - Let's Hack 3.0 and invites all developers and hackathon enthusiasts to participate in an interesting and engaging hackathon.
-                </p>
-            </div>
-        </div>
-
-        <!--event features-->
-        <div class="row justify-content-center mt30">
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-mic"></i>
-                    <div class="content">
-                        <h4>5+ Speakers & 10+ mentors</h4>
-                        <p>
-                            We are bringing very talented men and women from various parts of country to make this hackathon one of the happening not only in terms of arrangement but also on terms of the quality of content.
-                        </p>
-                        <a href="#">Cool</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-rocket"></i>
-                    <div class="content">
-                        <h4>36 hrs Hackathon</h4>
-                        <p>
-                            For this 36 hours you will be working on various problem statements and issues. You will be trying to make your best solution and we will take care of your refreshments and enjoyment.
-                        </p>
-                        <a href="#">Cool</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-bullhorn"></i>
-                    <div class="content">
-                        <h4>Per round Elimination</h4>
-                        <p>
-                            Elimination will be based on per round basis. There will be nearly 3 rounds of evaluation on 12,24,36 hours from start respectively.
-                        </p>
-                        <a href="#">Cool</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-clock"></i>
-                    <div class="content">
-                        <h4>Filled with opportunities</h4>
-                        <p>
-                            Get a chance to meet leadership experts of now and get a chance to talk to them and take your career to next level.
-                        </p>
-                        <a href="#">Cool</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--event features end-->
-    </div>
-</section>
-<!--about the event end -->
-
-
-<!--speaker section-->
-<!-- <section class="pb100">
+    <!--speaker section-->
+    <!-- <section class="pb100">
     <div class="container">
         <div class="section_title mb50">
             <h3 class="title">
@@ -406,10 +422,10 @@ With that spirit, Microsoft Technical Community LPU is conducting a hackathon - 
         </div>
     </div>
 </section> -->
-<!--speaker section end -->
-<br>
-<!--Price section-->
-<!-- <section class="pb100">
+    <!--speaker section end -->
+    <br>
+    <!--Price section-->
+    <!-- <section class="pb100">
     <div class="container">
         <div class="section_title mb50">
             <h3 class="title">
@@ -526,544 +542,750 @@ With that spirit, Microsoft Technical Community LPU is conducting a hackathon - 
         </div>
     </div>
 </section> -->
-<!--price section end -->
+    <!--price section end -->
 
-<!--event calender-->
-<section class="pb100">
-    <div class="container">
-        <div class="table-responsive">
-            <table class="event_calender table">
-                <thead class="event_title">
-                <tr>
-                    <th>
-                        <i class="ion-ios-calendar-outline"></i>
-                        <span>Schedule</span>
-                    </th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>
-                        <img src="assets/img/cleander/c1.png" alt="event">
-                    </td>
-                    <td class="event_date">
-                        12
-                        <span>PM</span>
-                    </td>
-                    <td>
-                        <div class="event_place">
-                            <h5>Registration</h5>
-                            <p>ID card distribution</p>
-                            <!-- <p>Speaker: Daniel Hill</p> -->
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="assets/img/cleander/c2.png" alt="event">
-                    </td>
-                    <td class="event_date">
-                        2
-                        <span>PM</span>
-                    </td>
-                    <td>
-                        <div class="event_place">
-                            <h5>Let the Hack begin</h5>
-                            <p>In main venue</p>
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="assets/img/cleander/c3.png" alt="event">
-                    </td>
-                    <td class="event_date">
-                        6
-                        <span>PM</span>
-                    </td>
-                    <td>
-                        <div class="event_place">
-                            <h5>Evening Snacks</h5>
-                            <p>Served per candidate basis</p>
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="assets/img/cleander/c3.png" alt="event">
-                    </td>
-                    <td class="event_date">
-                        9
-                        <span>PM</span>
-                    </td>
-                    <td>
-                        <div class="event_place">
-                            <h5>Dinner</h5>
-                            <p>Served per candidate basis</p>
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="assets/img/cleander/c3.png" alt="event">
-                    </td>
-                    <td class="event_date">
-                        1
-                        <span>AM</span>
-                    </td>
-                    <td>
-                        <div class="event_place">
-                            <h5>Comedy Time</h5>
-                            <p>Some Fun activities</p>
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="assets/img/cleander/c3.png" alt="event">
-                    </td>
-                    <td class="event_date">
-                        1
-                        <span>AM</span>
-                    </td>
-                    <td>
-                        <div class="event_place">
-                            <h5>Comedy Time</h5>
-                            <p>Some Fun activities</p>
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                    </td>
-                </tr>
-                <tr>
-                        <td>
-                            <img src="assets/img/cleander/c3.png" alt="event">
-                        </td>
-                        <td class="event_date">
-                            2
-                            <span>AM</span>
-                        </td>
-                        <td>
-                            <div class="event_place">
+    <!--event calender-->
+    <section class="pb100">
+        <div class="container">
+            <div class="table-responsive">
+                <table class="event_calender table">
+                    <thead class="event_title">
+                        <tr>
+                            <th>
+                                <i class="ion-ios-calendar-outline"></i>
+                                <span>Schedule</span>
+                            </th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c1.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                12
+                                <span>PM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Registration</h5>
+                                    <p>ID card distribution</p>
+                                    <!-- <p>Speaker: Daniel Hill</p> -->
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c2.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                2
+                                <span>PM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Let the Hack begin</h5>
+                                    <p>In main venue</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c3.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                6
+                                <span>PM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Evening Snacks</h5>
+                                    <p>Served per candidate basis</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c3.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                9
+                                <span>PM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Dinner</h5>
+                                    <p>Served per candidate basis</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c3.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                1
+                                <span>AM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Comedy Time</h5>
+                                    <p>Some Fun activities</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c3.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                2
+                                <span>AM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
                                     <h5>Judgement Round - 1</h5>
                                     <p>First round of Elimination and judgement will commence</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                        <tr>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c3.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                3
+                                <span>AM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Midnight Snacks & Drinks</h5>
+                                    <p>Go to the respective counters to collect your refreshments</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c3.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                8
+                                <span>AM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Breakfast</h5>
+                                    <p>Served per candidate basis</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c3.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                2
+                                <span>PM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Judgement Round - 2</h5>
+                                    <p>Second round of Elimination and judgement will commence</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c3.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                4
+                                <span>PM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Lunch</h5>
+                                    <p>Served per candidate basis</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c3.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                6
+                                <span>PM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Snacks</h5>
+                                    <p>Served per candidate basis</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c3.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                9
+                                <span>PM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Dinner</h5>
+                                    <p>Served per candidate basis</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c3.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                2
+                                <span>AM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Judgement Round - 3</h5>
+                                    <p>Final round of Elimination and judgement will commence</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/img/cleander/c3.png" alt="event">
+                            </td>
+                            <td class="event_date">
+                                6
+                                <span>AM</span>
+                            </td>
+                            <td>
+                                <div class="event_place">
+                                    <h5>Result Declaration</h5>
+                                    <p>Wrap up event & bid bye to each other</p>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-primary btn-rounded">Cool</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!--event calender end -->
+
+    <!--brands section -->
+    <section class="bg-gray pt100 pb100">
+        <div class="container">
+            <div class="section_title mb50">
+                <h3 class="title">
+                    past sponsors
+                </h3>
+            </div>
+            <div class="brand_carousel owl-carousel">
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/AdvantEdge.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/balasmiq.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/challengeRocket.jpeg" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/codingBlocks.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/developer_circle.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/digitalocean.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/GitHub_Logo.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/gitlab.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/gslogo.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/hacksociety.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/HE.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/interviewCake.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/Jetbrains.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/mozilla.jpg" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/msiLogo.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/revDebug.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/startupSuccess.jpg" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/udacity.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/unityLogo.png" alt="brand">
+                </div>
+                <div class="brand_item text-center">
+                    <img src="assets/img/sponsors/zulip.png" alt="brand">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--brands section end-->
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="row">
+                <!-- ***** FAQ Start ***** -->
+                <div class="col-md-12 ">
+
+                    <div class="faq-title text-center pb-3">
+                        <h2>FAQ</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="faq" id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-1">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1"
+                                        data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+                                        <span class="badge">1</span>Who should attend Let's Hack 3.0?
+                                    </h5>
+                                </div>
                             </div>
-                        </td>
-                        <td>
-                            <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                        </td>
-                    </tr>
-                    <tr>
-                <tr>
-                    <td>
-                        <img src="assets/img/cleander/c3.png" alt="event">
-                    </td>
-                    <td class="event_date">
-                        3
-                        <span>AM</span>
-                    </td>
-                    <td>
-                        <div class="event_place">
-                            <h5>Midnight Snacks & Drinks</h5>
-                            <p>Go to the respective counters to collect your refreshments</p>
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="assets/img/cleander/c3.png" alt="event">
-                    </td>
-                    <td class="event_date">
-                        8
-                        <span>AM</span>
-                    </td>
-                    <td>
-                        <div class="event_place">
-                            <h5>Breakfast</h5>
-                            <p>Served per candidate basis</p>
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="assets/img/cleander/c3.png" alt="event">
-                    </td>
-                    <td class="event_date">
-                        2
-                        <span>PM</span>
-                    </td>
-                    <td>
-                        <div class="event_place">
-                            <h5>Judgement Round - 2</h5>
-                            <p>Second round of Elimination and judgement will commence</p>
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="assets/img/cleander/c3.png" alt="event">
-                    </td>
-                    <td class="event_date">
-                        4
-                        <span>PM</span>
-                    </td>
-                    <td>
-                        <div class="event_place">
-                            <h5>Lunch</h5>
-                            <p>Served per candidate basis</p>
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="assets/img/cleander/c3.png" alt="event">
-                    </td>
-                    <td class="event_date">
-                        6
-                        <span>PM</span>
-                    </td>
-                    <td>
-                        <div class="event_place">
-                            <h5>Snacks</h5>
-                            <p>Served per candidate basis</p>
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="assets/img/cleander/c3.png" alt="event">
-                    </td>
-                    <td class="event_date">
-                        9
-                        <span>PM</span>
-                    </td>
-                    <td>
-                        <div class="event_place">
-                            <h5>Dinner</h5>
-                            <p>Served per candidate basis</p>
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="assets/img/cleander/c3.png" alt="event">
-                    </td>
-                    <td class="event_date">
-                        2
-                        <span>AM</span>
-                    </td>
-                    <td>
-                        <div class="event_place">
-                            <h5>Judgement Round - 3</h5>
-                            <p>Final round of Elimination and judgement will commence</p>
-                        </div>
-                    </td>
-                    <td>
-                        <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                    </td>
-                </tr>
-                <tr>
-                        <td>
-                            <img src="assets/img/cleander/c3.png" alt="event">
-                        </td>
-                        <td class="event_date">
-                            6
-                            <span>AM</span>
-                        </td>
-                        <td>
-                            <div class="event_place">
-                                <h5>Result Declaration</h5>
-                                <p>Wrap up event & bid bye to each other</p>
+                            <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        Whether you are new to the open source and Hackathon world or an experienced developer, you will learn something new at Let's Hack. The Convergence of developers is designed in the form to help build communities and build strategies to strengthen their whole ecosystem. Being a Let's Hack attendee we will be bringing to you a great chance to interact and build connections alongside. This whole event is designed to educate new developers about the Developement and Corporate world and help existing developers strengthen their outreach.
+                                    </p>
+                                </div>
                             </div>
-                        </td>
-                        <td>
-                            <a href="#" class="btn btn-primary btn-rounded">Cool</a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</section>
-<!--event calender end -->
-
-<!--brands section -->
-<section class="bg-gray pt100 pb100">
-    <div class="container">
-        <div class="section_title mb50">
-            <h3 class="title">
-                past sponsors
-            </h3>
-        </div>
-        <div class="brand_carousel owl-carousel">
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/AdvantEdge.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/balasmiq.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/challengeRocket.jpeg" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/codingBlocks.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/developer_circle.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/digitalocean.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/GitHub_Logo.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/gitlab.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/gslogo.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/hacksociety.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/HE.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/interviewCake.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/Jetbrains.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/mozilla.jpg" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/msiLogo.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/revDebug.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/startupSuccess.jpg" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/udacity.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/unityLogo.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/sponsors/zulip.png" alt="brand">
-            </div>
-        </div>
-    </div>
-</section>
-<!--brands section end-->
-
-<!--get tickets section -->
-<section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
-    <div class="container">
-        <div class="section_title mb30">
-            <h3 class="title color-light text-center">
-                Register now
-            </h3>
-        </div>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-2 text-md-right text-center">
-                <a href="#" class="btn btn-primary btn-rounded mt30">click here</a>
-            </div>
-        </div>
-    </div>
-</section>
-<!--get tickets section end-->
-
-<!--footer start -->
-<footer>
-    <div class="container">
-        <div class="row justify-content-center">
-
-            <div class="col-md-4 col-12">
-                <div class="footer_box">
-                    <div class="footer_header">
-                        <div class="footer_logo">
-                            <!-- <img src="assets/img/logo.png" alt="letshack"> -->
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-2">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                        <span class="badge">2</span> Will there be prizes?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        Of course there will be prizes although it isn’t all about winning but what you learn and build during those 36 hours. But don’t worry there will be a panel of judges that will select the three best hacks based on creativity, technical difficulty, design, and productiveness. Prizes for first, second and third place will be given. Sponsors also offer prizes for specific criteria, which they judge themselves.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-3">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                        <span class="badge">3</span>What is included in the Hackathon registration? 
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        Hackathon registration gives you a chance to get selected to attend the Hackathon. After the registrations close, the selected participants will be informed through email highlighting and our Hackathon Partner platform in the further steps. There will be lunch and refreshments provided.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">4</span> Can I get a confirmation of my Let's Hack registration? 
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        Upon completing the online registration process, if you're selected, you will be emailed a confirmation email with details from Let's Hack. If you are already selected (as on the Hackathon portal) and can’t see this email, please check your spam folder.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-5">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-5">
+                                        <span class="badge">5</span>  Will the slides and presentations be shared after the event?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p> 
+                                        Yes they will be made available on our webpage and communicated to you in the ‘Thank You’ email after the event. Please note that the slides will only be provided with the discretion of the presenting organisations.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-6">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-6">
+                                        <span class="badge">6</span> How should I behave at Let's Hack? 
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        Be respectful and considerate of your fellow hackers. We're all here to learn and have a good time. Everyone deserves the chance to hack free of the fear of being harrased. See the Let's Hack Guidelines for more details.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+                                        <span class="badge">7</span> Any unanswered questions? 
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        If there is something that is still not clear or we didn’t cover please contact us at admin@microsoftlpu.com or at instagram or facebook.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="footer_box_body">
-                        <!-- <p>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="faq" id="accordion1">
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-8">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-8"
+                                        data-aria-expanded="true" data-aria-controls="faqCollapse-8">
+                                        <span class="badge">8</span>How can I apply?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-8" class="collapse" aria-labelledby="faqHeading-8" data-parent="#accordion1">
+                                <div class="card-body">
+                                    <p>
+                                        You can go to our Hackerearth portal where all the information is available about the application procedure.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-9">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-9"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-9">
+                                        <span class="badge">9</span>When will the application open? 
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-9" class="collapse" aria-labelledby="faqHeading-9" data-parent="#accordion1">
+                                <div class="card-body">
+                                    <p>
+                                        Applications open at 30th May 2019
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-10">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-10">
+                                        <span class="badge">10</span> When will the application close? 
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-10" class="collapse" aria-labelledby="faqHeading-10" data-parent="#accordion1">
+                                <div class="card-body">
+                                    <p>
+                                        Applications close at 1st Aug 2018
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-11">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-11">
+                                        <span class="badge">11</span>  What should I bring to Let's Hack? 
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion1">
+                                <div class="card-body">
+                                    <p>
+                                        Please bring a valid ID (any Photo ID), your hackathon ticket, a computer (preferably a laptop), chargers, and any hardware you will use for your hack. You can also bring a sleeping mattress, pillow, toiletries etc. Food will be provided at the event. No firearms, weapons, alcohol, or illegal drugs are allowed on event.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-12">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-12">
+                                        <span class="badge">12</span>  What size are the teams? What happens if I don’t have a team? 
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion1">
+                                <div class="card-body">
+                                    <p>
+                                        The teams are a maximum of 4 people. You can start off the event already with a team or you can meet with people at the event who also don’t have a team and form here
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-13">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-13">
+                                        <span class="badge">13</span>  Will there be travel reimbursements? 
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion1">
+                                <div class="card-body">
+                                    <p>There may be some travel reimbursements for outstanding candidates for sure, we will communicate the details with the selected attendees. The details for the same will be communited through email.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-14">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-14">
+                                        <span class="badge">14</span>  How much does it cost? 
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-7" data-parent="#accordion1">
+                                <div class="card-body">
+                                    <p>
+                                            It's absolutely free! There is no entry fee, Nada. Let's Hack will provide you with plenty of food, snacks, swag, and prizes throughout the 36 hours.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of FAQ Section -->
+
+    <!--get tickets section -->
+    <section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
+        <div class="container">
+            <div class="section_title mb30">
+                <h3 class="title color-light text-center">
+                    Register now
+                </h3>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-2 text-md-right text-center">
+                    <a href="#" class="btn btn-primary btn-rounded mt30">click here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--get tickets section end-->
+
+    <!--footer start -->
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-md-4 col-12">
+                    <div class="footer_box">
+                        <div class="footer_header">
+                            <div class="footer_logo">
+                                <!-- <img src="assets/img/logo.png" alt="letshack"> -->
+                            </div>
+                        </div>
+                        <div class="footer_box_body">
+                            <!-- <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in aazzzCurabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
                         </p> -->
-                        <ul class="footer_social">
-                            <li>
-                                <a href="#"><i class="ion-social-pinterest"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-dribbble"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="ion-social-instagram"></i></a>
-                            </li>
-                        </ul>
+                            <ul class="footer_social">
+                                <li>
+                                    <a href="#"><i class="ion-social-pinterest"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="ion-social-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="ion-social-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="ion-social-dribbble"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="ion-social-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-12 col-md-4">
-                <div class="footer_box">
-                    <div class="footer_header">
-                        <h4 class="footer_title">
-                            instagram
-                        </h4>
-                    </div>
-                    <div class="footer_box_body">
-                        <ul class="instagram_list">
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/cleander/c1.png" alt="instagram">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/cleander/c2.png" alt="instagram">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/cleander/c3.png" alt="instagram">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/cleander/c3.png" alt="instagram">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/cleander/c2.png" alt="instagram">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="assets/img/cleander/c1.png" alt="instagram">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="footer_box">
-                    <div class="footer_header">
-                        <h4 class="footer_title">
-                            subscribe to our newsletter
-                        </h4>
-                    </div>
-                    <div class="footer_box_body">
-                        <div class="newsletter_form">
-                            <input type="email" class="form-control" placeholder="E-Mail here">
-                            <button class="btn btn-rounded btn-block btn-primary">SUBSCRIBE</button>
+                <div class="col-12 col-md-4">
+                    <div class="footer_box">
+                        <div class="footer_header">
+                            <h4 class="footer_title">
+                                subscribe to our newsletter
+                            </h4>
+                        </div>
+                        <div class="footer_box_body">
+                            <div class="newsletter_form">
+                                <input type="email" class="form-control" placeholder="E-Mail here">
+                                <button class="btn btn-rounded btn-block btn-primary">SUBSCRIBE</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
-<div class="copyright_footer">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-6 col-12">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-            </div>
-            <div class="col-12 col-md-6 ">
-                <ul class="footer_menu">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Speakers</a>
-                    </li>
-                    <li>
-                        <a href="#">Events</a>
-                    </li>
-                    <li>
-                        <a href="#">News</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
+    </footer>
+    <div class="copyright_footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-12">
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;<script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 ">
+                    <ul class="footer_menu">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Speakers</a>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!--footer end -->
+    <!--footer end -->
 
-<!-- jquery -->
-<script src="assets/js/jquery.min.js"></script>
-<!-- bootstrap -->
-<script src="assets/js/popper.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/waypoints.min.js"></script>
-<!--slick carousel -->
-<script src="assets/js/owl.carousel.min.js"></script>
-<!--parallax -->
-<script src="assets/js/parallax.min.js"></script>
-<!--Counter up -->
-<script src="assets/js/jquery.counterup.min.js"></script>
-<!--Counter down -->
-<script src="assets/js/jquery.countdown.min.js"></script>
-<!-- WOW JS -->
-<script src="assets/js/wow.min.js"></script>
-<!-- Custom js -->
-<script src="assets/js/main.js"></script>
+    <!-- jquery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <!--slick carousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--parallax -->
+    <script src="assets/js/parallax.min.js"></script>
+    <!--Counter up -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!--Counter down -->
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <!-- WOW JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Custom js -->
+    <script src="assets/js/faq.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>

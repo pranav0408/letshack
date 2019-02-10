@@ -1,0 +1,117 @@
+#sponsors{
+	padding: 50px;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 100%;
+}
+.card:hover {
+	box-shadow: 0 8px 50px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.19);
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1);
+}
+.timeline {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  background-color: #eee;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #f50136;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.container-timeline {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+.container-timeline::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12px;
+  background-color: #f50136;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.timeline-header{
+	width: 100%;
+	background: #f50136;
+	border-radius: 6px;
+	text-align: center;
+}
+.timeline-header h3{
+	color: white;
+}
+.left-timeline {
+  left: 0;
+}
+.right-timeline {
+  left: 50%;
+}
+.left-timeline::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #f50136;
+}
+.right-timeline::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #f50136 transparent transparent;
+}
+.right-timeline::after {
+  left: -12px;
+}
+.timeline-content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+@media screen and (max-width: 600px) {
+  .timeline::after {
+  left: 31px;
+  }
+  .container-timeline {
+  width: 100%;
+  padding-top: 19px;
+  padding-left: 68px;
+  padding-right: 25px;
+  }
+  .container-timeline::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #f50136 transparent transparent;
+  }
+  .left-timeline::after, .right-timeline::after {
+  left: 15px;
+  }
+  .right-timeline {
+  left: 0%;
+  }

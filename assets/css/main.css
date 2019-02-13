@@ -1,4 +1,4 @@
-/*
+  /*
  * Evento -  Event html  Template
  * Build Date: jan 2018
  * Author: colorlib
@@ -79,14 +79,12 @@ p {
   margin: 0 0 15px;
   line-height: 24px;
   font-weight: 400;
-  color: #838383;
 }
 p:last-child {
   margin-bottom: 0;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
   cursor: pointer;
   font-size: 13px;
@@ -387,41 +385,6 @@ img {
 .color-yellow {
   color: #ffbf00 !important;
 }
-
-.color-purple {
-  color: #926cc4 !important;
-}
-
-.bg-grad-purple {
-  background: #8C66CA;
-  background: linear-gradient(135deg, #E25574 0%, #8C66CA 100%);
-}
-
-.bg-macaroni {
-  background: -webkit-gradient(linear, left top, right top, from(#ff5f6d), to(#ffc371));
-  background: linear-gradient(90deg, #ff5f6d 0%, #ffc371 100%);
-}
-
-.bg-light {
-  background-color: #ffffff !important;
-}
-
-.bg-gray {
-  background-color: #f0f2f6 !important;
-}
-
-.bg-black {
-  background-color: #18181c !important;
-}
-
-.bg-blue {
-  background-color: #0652fd !important;
-}
-
-.bg-purple {
-  background-color: #926cc4 !important;
-}
-
 /* --------------PADDING STYLE-------------- */
 .p0 {
   padding: 0 !important;
@@ -3135,6 +3098,7 @@ textarea.form-control {
   background: #fdfdfd;
   min-height: 100vh;
   padding: 10vh 0 0;
+  margin-bottom: 5em;
 }
 .faq-title h2 {
 position: relative;

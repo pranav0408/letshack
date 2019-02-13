@@ -115,3 +115,98 @@
   .right-timeline {
   left: 0%;
   }
+}
+.section-title {
+   font-size: 36px;
+   line-height: 36px;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-bottom: 15px;
+   position: relative;
+}
+
+.section-title.title-white{
+   color: #fff;
+}
+
+.section-sub-title {
+   display: block;
+   max-width: 80%;
+   font-size: 18px;
+   margin: 0 auto 60px;
+}
+
+.section-sub-title strong{
+  font-weight: 400;
+}
+
+.icon-wrap{
+   display: inline-block;
+   background: #55688f;
+   color: #fff;
+   width: 40px;
+   height: 40px;
+   margin-bottom: 30px;
+   position: relative;
+   text-align: center;
+   -webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   -o-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+
+.icon-wrap i{
+  font-size: 16px !important;
+  padding: 12px !important;
+  /*text-align: center !important;*/
+  /*vertical-align: middle !important;*/
+  color: white !important;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* Sponsors
+================================================== */
+
+.ts-sponsors .sp-container{
+  padding-left: 150px;
+   padding-right: 150px;
+}
+
+.sponsor-title{
+   border-bottom: 1px solid #dadada;
+   padding-bottom: 20px;
+   max-width: 750px;
+   margin:0 auto;
+}
+
+.sponsor-logo{
+  display: inline-block;
+  text-align: center;
+  margin: 60px 0;
+}
+
+.sponsor-logo img{
+  opacity: .6;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.sponsor-logo.highlight img{
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.sponsor-logo{
+  color: coral !important;
+}

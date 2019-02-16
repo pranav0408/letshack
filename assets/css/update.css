@@ -210,3 +210,9 @@
 .sponsor-logo{
   color: coral !important;
 }
+.spon-logo{
+  margin-left: -2rem;
+}
+.spon-logo > ul{
+   list-style: none;
+}

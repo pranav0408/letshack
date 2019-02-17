@@ -216,3 +216,15 @@
 .spon-logo > ul{
    list-style: none;
 }
+#footer-contact > ul{
+  list-style: none;
+  display: inline;
+  margin-left: -2vw;
+}
+#footer-contact > ul > li{
+  display: inline-block;
+  padding: 2rem;
+}
+.fa{
+  font-size: 2em;
+}
